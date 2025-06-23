@@ -33,4 +33,11 @@ app.use('/api/v1/cart', cartRoutes);
 dbConnection();
 connectCloudinary();
 
+app.get('/', (req, res) => {
+  res.status(200).json({
+    success: true,
+    message: 'Welcome to Chlothzy API',
+  });
+});
+
 export default app;
