@@ -1,0 +1,27 @@
+# Dependency directories
+node_modules
+coverage
+dist
+build
+
+# Environment and config files
+.env
+.env.*  # .env.development, .env.production, etc.
+*.log
+*.lock  # package-lock.json, yarn.lock, etc.
+
+# Database-related files (optional)
+*.db
+*.sqlite
+
+# Runtime files
+tmp
+temp
+.cache
+.nyc_output
+
+
+# Ignore specific generated or static files (adjust as needed)
+public
+uploads
+logs
